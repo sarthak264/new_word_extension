@@ -5,3 +5,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.word {
+  font-size: 10rem;
+}
+.meaning {
+  font-size: 2rem;
+}
