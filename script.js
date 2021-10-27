@@ -2,6 +2,7 @@ const word = document.querySelector(".word");
 const meaning = document.querySelector(".meaning");
 const section = document.querySelector("section");
 const checkbox = document.getElementById("theme_input");
+const darkMode = localStorage.getItem("darkMode");
 
 async function getWord() {
   const response = await fetch("https://random-words-api.vercel.app/word");
@@ -14,7 +15,7 @@ async function getWord() {
 
 function changeTheme() {
   section.classList.toggle("dark");
-  console.log(checkbox.checked);
+  localStorage.setItem("darkMode", checkbox.checked);
 }
 
 getWord();
