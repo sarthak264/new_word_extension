@@ -15,6 +15,10 @@
   align-items: center;
   background-color: whitesmoke;
 }
+.dark {
+  background-color: #111212;
+  color: #ffffff;
+}
 .word {
   font-size: 10rem;
 }
