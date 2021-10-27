@@ -13,12 +13,9 @@ async function getWord() {
 }
 
 function changeTheme() {
-  if (checkbox.checked) {
-    section.classList.add("dark");
-  } else {
-    section.classList.remove("dark");
-  }
+  section.classList.toggle("dark");
+  console.log(checkbox.checked);
 }
 
 getWord();
-checkbox.addEventListener("click", changeTheme);
+checkbox.addEventListener("change", changeTheme);
