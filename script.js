@@ -18,5 +18,13 @@ function changeTheme() {
   localStorage.setItem("darkMode", checkbox.checked);
 }
 
+function getTheme() {
+  if (darkMode === "true") {
+    checkbox.checked = true;
+    section.classList.toggle("dark");
+  }
+}
+
 getWord();
+getTheme();
 checkbox.addEventListener("change", changeTheme);
