@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   background-color: whitesmoke;
+  transition: all 0.2s ease-in-out;
 }
 .dark {
   background-color: #111212;
@@ -24,4 +25,9 @@
 }
 .meaning {
   font-size: 2rem;
+}
+#theme_input {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
 }
