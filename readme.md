@@ -2,9 +2,9 @@
 
 A browser extension that expands your English vocabulary. With each new tab opened you can learn a new word.
 
-![Light mode screenshot](dark_mode.png "Dark Mode")
+![Light mode screenshot](assets/images/dark_mode.png "Dark Mode")
 
-![Dark mode screenshot](light_mode.png "Light Mode")
+![Dark mode screenshot](assets/images/light_mode.png "Light Mode")
 
 ## How to Install
 
