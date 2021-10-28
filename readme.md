@@ -2,6 +2,10 @@
 
 A browser extension that expands your English vocabulary. With each new tab opened you can learn a new word.
 
+![Light mode screenshot](dark_mode.png "Dark Mode")
+
+![Dark mode screenshot](light_mode.png "Light Mode")
+
 ## How to Install
 
 * Clone this repository or download as zip.
